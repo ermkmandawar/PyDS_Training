@@ -1,0 +1,3 @@
+A universal function (or ufunc for short) is a function that operates on np arrays in an element-by-element fashion, supporting array broadcasting, type casting, and several other standard features.
+
+In the Python NumPy module, we have many aggregate functions or statistical functions to work with a single-dimensional or multi-dimensional array. The Python Numpy aggregate functions are sum, min, max, mean, average, product, median, standard deviation, variance, argmin, argmax, percentile, cumprod, cumsum, and corrcoef.
