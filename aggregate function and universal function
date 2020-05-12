@@ -1,6 +1,28 @@
-A universal function (or ufunc for short) is a function that operates on np arrays in an element-by-element fashion, 
-supporting array broadcasting, type casting, and several other standard features.
+Universal functions in Numpy are simple mathematical functions. It is just a term that we gave to mathematical functions in the Numpy library. Numpy provides various universal functions that cover a wide variety of operations.
 
-In the Python NumPy module, we have many aggregate functions or statistical functions to work with a single-dimensional or
-multi-dimensional array. The Python Numpy aggregate functions are sum, min, max, mean, average, product, median, standard deviation, 
-variance, argmin, argmax, percentile, cumprod, cumsum, and corrcoef.
+These functions include standard trigonometric functions, functions for arithmetic operations, handling complex numbers, statistical functions, etc.
+Ex- sin, cos, tan,arcsin, arccos, arctan,hypot etc.
+
+In the Python NumPy module, we have many aggregate functions or statistical functions to work with a single-dimensional or multi-dimensional array. The Python Numpy aggregate functions are sum, min, max, mean, average, product, median, standard deviation, variance, argmin, argmax, percentile, cumprod, cumsum, and corrcoef.
+
+Aggregate functions which are used to perform some statistical data analysis
+
+import numpy as np
+a = np.array([10, 20, 30])
+np.median(a)
+
+Output:
+20.0
+
+ufuncs stands for "Universal Functions" and they are NumPy functions that operates on the ndarray object.
+
+ufuncs are used to implement vectorization in NumPy which is way faster than iterating over elements.
+
+import numpy as np
+
+x = [1, 2, 3, 4]
+y = [4, 5, 6, 7]
+z = np.add(x, y)
+
+Output:
+[5 7 9 11]
